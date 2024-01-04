@@ -1,0 +1,55 @@
+Question:-1
+	What is the syntax for the While loop in JavaScript?
+Answer:-
+	It is a type of loop. We use it when number of iteration is not fixed.
+
+	while(condition)
+	{
+		statements;
+	}
+
+
+Question:-2
+	What is the syntax for the For loop in JavaScript?
+Answer:-
+	It is a type of loop. We use it when number of iteration is fixed.	
+	for(initialization; condition; increment or decrement){
+		statements;
+	}
+
+
+Question:-3
+	What is a nested loop in JavaScript, and why would you use one?
+Answer:-
+	A loop who contain itself inside another loop it is known as nested 
+	loop. We use it for executing multidimensional data, in this type 
+	of loop first iteration of the firdt loop will initialize the second
+	loop like in 2D array. 
+
+
+Question:-4
+	What is an infinite loop in JavaScript, and how can it be avoided?
+Answer:-
+	Infinite loop is a piece of code which can be running forever, It 
+	is not reached on terminating condition. It can crash your program.
+		For avoiding this we give our condition carefully, which is 
+	reachable by the program.
+
+
+Question:-5
+	How do you break out of two nested for loops?
+Answer:-
+	We can break by using break keyword.
+
+
+Question:-6
+	What is the difference between the break statement and the continue directive?
+Answer:-
+	Break keyword tarminates code and start new cycle according to condition
+	continue only one time skip the code and continue rest execution.  
+
+
+Question:-7
+	Can you stop a loop based on a specific condition?
+ Answer:- 
+	Yess, we can by useing break or return keyword in that condition.
